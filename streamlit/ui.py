@@ -15,6 +15,6 @@ if sub:
     "attendance":att,
     "gender_Male":gender
     }
-    res=requests.post("https://score-prediction-2.onrender.com/prd",json=data)
+    res=requests.post("https://score-prediction-3.onrender.com/prd",json=data)
     result=res.json()
     st.write("Predicted score is:",result["Predicted score"])
